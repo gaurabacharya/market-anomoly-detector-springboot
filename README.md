@@ -62,7 +62,7 @@ src/
 ```
 
 Merlion Integration
-The anomaly logic is offloaded to a separate Python FastAPI service which is [located here]():
+The anomaly logic is offloaded to a separate Python FastAPI service which is [located here](https://github.com/gaurabacharya/merlion-anomaly-service):
 
 Accepts JSON with timestamps, prices, and symbol
 
@@ -82,7 +82,7 @@ The Java backend does not train or store models, keeping compute light and porta
 - Clone the Merlion service repo separately
 
 ```bash
-git clone https://github.com/salesforce/Merlion
+git clone https://github.com/gaurabacharya/merlion-anomaly-service.git
 cd merlion-service
 pip install -r requirements.txt
 python merlion_server.py  # runs on port 8001
