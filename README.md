@@ -96,8 +96,8 @@ mvn spring-boot:run
 Visit: http://localhost:8080
 
 ### Endpoints
-GET	/status/{symbol}	Returns last known status of a symbol - right now APPL is only being used
-GET	/anomaly/v1/export/daily	Export all anomaly records for the day
+- GET	/status/{symbol}	Returns last known status of a symbol - right now APPL is only being used
+- GET	/anomaly/v1/export/daily	Export all anomaly records for the day
 
 ## Future Scaling
 - Database: Persist anomaly logs (PostgreSQL, MongoDB)
