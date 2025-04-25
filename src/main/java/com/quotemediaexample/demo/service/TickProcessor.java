@@ -52,7 +52,7 @@ public class TickProcessor implements CommandLineRunner {
 
         for (int i = 0; i < scores.size(); i++) {
           double score = scores.get(i);
-          if (score > 3) {
+          if (score > 3.5) {
             Tick t = tickList.get(i);
             anomalySvc.record(t, score);
             System.out.println("Anomaly: " + t + " → score=" + score);
