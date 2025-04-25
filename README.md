@@ -3,6 +3,9 @@
 A Spring Boot backend for real-time stock anomaly detection powered by [Salesforce Merlion](https://github.com/salesforce/Merlion). Designed as a prototype for **QuoteMedia**, this project analyzes price data streams to detect outliers, system irregularities, and potential market anomalies using AI models hosted in a companion Python service.
 
 ---
+## Demo:
+
+https://youtu.be/YPlRRCrc9wo
 
 ## What does this do?
 
